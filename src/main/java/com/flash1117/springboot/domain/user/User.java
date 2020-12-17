@@ -1,11 +1,9 @@
 package com.flash1117.springboot.domain.user;
 
-
 import com.flash1117.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.context.annotation.Role;
 
 import javax.persistence.*;
 
