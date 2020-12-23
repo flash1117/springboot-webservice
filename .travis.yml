@@ -18,9 +18,9 @@ cache:
 script: "./gradlew clean build"
 
 before_deploy:
-  - zip -r mollangzzang-springboot-webservice
+  - zip -r springboot-webservice
   - mkdir -p deploy
-  - mv mollangzzang-springboot-webservice.zip deploy/mollangzzang-springboot-webservice
+  - mv springboot-webservice.zip deploy/springboot-webservice
 
 deploy:
   - provider: s3
