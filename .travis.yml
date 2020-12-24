@@ -45,6 +45,7 @@ deploy:
     bundle_type: zip # 압축 확장자
     application: mollangzzang-springboot-webservice # 웹 콘솔에서 등록한 codedeploy app
     deployment_group: mollangzzang-springboot-webservice # 웹 콘솔에서 등록한 codedeploy 배포 그룹
+    skip_cleanup: true
     region: ap-northeast-2
     wait-until-deployed: true
 
